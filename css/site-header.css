@@ -1,0 +1,44 @@
+.site-header {
+    text-align: center;
+}
+
+.site-header__left {
+    float: left;
+}
+
+.site-header__right {
+    float: right;
+}
+
+.site-header__left, .site-header__right {
+    width: 100%;
+}
+
+.site-header__logo {
+    display: inline-block;
+}
+
+.site-header__logo-img {
+    width: 35px;
+}
+
+@media only screen and (min-width: 600px) {
+    .site-header__right {
+        text-align: left;
+    }
+
+}
+
+@media only screen and (min-width: 730px) {
+    .site-header {
+        padding: 20px 0;
+    }
+
+    .site-header__left, .site-header__right {
+        width: auto;
+    }
+
+    .site-header__right {
+        padding: 25px 0;
+    }
+}

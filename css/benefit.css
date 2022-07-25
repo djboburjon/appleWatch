@@ -1,0 +1,43 @@
+.benefits {
+    padding: 30px;
+    color: #333;
+}
+
+.benefit {
+    margin-bottom: 30px;
+}
+
+.benefit__title {
+    font-size: 0.95rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.benefit__text {
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 1.8;
+}
+
+@media only screen and (min-width: 770px) {
+    .benefit {
+        width: 30%;
+        float: left;
+        /* Orani kattalashtirish uslubi #1 */
+        /* margin-bottom: 0;
+        margin-right: 5%; */
+    }
+
+    /*Orani kattalashtirish uslubi #1
+    .benefit.last {
+        margin-right: 0;
+    } */
+
+    .benefit + .benefit {
+        margin-left: 5%;
+    }
+
+    .benefit__title {
+        margin-bottom: 45px;
+    }
+}

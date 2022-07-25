@@ -1,0 +1,39 @@
+.feature--left,
+.feature--right {
+    float: none;
+}
+
+.feature__title {
+    color: #333;
+    font-size: 1.8rem;
+}
+
+.feature__text {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+@media only screen and (min-width: 770px) {
+    .feature {
+        width: 50%;
+        text-align: left;
+    }
+
+    .feature--left {
+        float: left;
+    }
+
+    .feature--right {
+        float: right;
+    }
+
+    .feature__title {
+        margin-bottom: 40px;
+    }
+
+    .feature__text {
+        padding-left: 30px;
+        border-left: 2px solid #999;
+        margin-bottom: 30px;
+    }
+}
